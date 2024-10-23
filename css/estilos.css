@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+*{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: #b1e298;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    padding: 10px;
+    ul{
+        list-style: none;
+    
+        li{
+            display: inline-block;
+            margin-right: 15px;
+            a{
+                font-family: "Open Sans", sans-serif;
+                text-decoration: none;
+                color:  #b66d19;
+                font-size: 1em;
+              
+            }
+    }}
+    
+}
+
+h3, h4, h5, h6{
+        font-family: "Dosis", sans-serif;
+        font-style: normal;   
+        font-size: 1.4em; }
+
+h1{
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+    
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3em;
+}
+
+h2{font-family: "Dosis", sans-serif;
+    font-style: normal;   
+    font-size: 1.7em; }
+
+
+h2, h3
+{a{ font-family: "Dosis", sans-serif;}}
+
+
+p{
+    font-size:1em
+}
+
+
+a{text-decoration: none;
+    color:black}
+
+.fontTitulos{  font-family: "Dosis", sans-serif;
+    
+    
+    font-style: normal;   
+    font-size: 1.3em;}
+
+.logoBordadines {
+    font-family: "Playwrite GB S", serif;
+    
+    font-weight: 400 ;
+    font-style: normal;
+    font-size: 1.1em;
+  }
+
+.tamañoFuenteMenu {font-size: 1.3em; }
+
+
+
+
+.sectionPrincipal {
+    background-image: url("../assets/img/escritorio.png");
+        
+    background-size:cover;
+    background-position:center;
+    
+    padding-top: 15px;
+    
+    height: 50vh;
+    
+    font-size:1.2em;
+    font-weight:normal;
+    color:#7c2f5f;    
+    h1 {text-align: center};
+    }
+
+    .contenedorTextoSectionPrincipal{
+
+        margin:0 auto;
+        margin-top: 10px;
+        padding: 0 200px;
+        text-align:justify;
+        font-size: 1.1em;
+        line-height:1.5;
+        font-weight: 550;
+        
+        color: #f1ce91; 
+        backdrop-filter: brightness(0.7);
+     
+    }  
+
+.sectionPrincipalProducto{
+    background-image: url("../assets/img/productos.png");
+    background-size:cover;
+    background-position:center;
+    
+    padding-top: 15px;
+    
+    height: 40vh;
+    
+    font-size:1.2em;
+    font-weight:normal;
+    color:#7c2f5f;
+    h1 {text-align: center};
+    }
+
+.sectionPrincipalTalleres{
+        background-image: url("../assets/img/talleres3.png");
+        background-size:cover;
+        background-position:center;
+        
+        padding-top: 15px;
+        
+        height: 40vh;
+        
+        font-size:1.2em;
+        font-weight:normal;
+        color:#7c2f5f;
+        h1 {text-align: center};
+        }
+
+
+ .contenedorTextoSectionPrincipalNosotros{
+
+            margin:0 auto;
+            margin-top: 10px;
+            padding: 0 200px;
+            text-align:center;
+            font-size: 0.8em;
+            line-height:1.5;
+            font-weight: 550;
+            color: #f1ce91; 
+            backdrop-filter: brightness(0.7);}
+
+
+.sectionPrincipalNosotros{background-image: url("../assets/img/nosotros_editado.png");
+    background-size:cover;
+    background-position:bottom;
+    
+    padding-top: 15px;
+    
+    height: 50vh;
+   
+    font-size:1.6em;
+    
+    color: rgb(126, 10, 87);   
+    h1 {text-align: center;
+        font-weight:bold;};}     
+ 
+table {box-sizing: border-box;
+    width: 95%;
+    border: 1px solid #000;
+    margin-bottom:30px;
+    margin-left:10px;
+    background-image: linear-gradient(to right top, #f8008d, #ee34a6, #e14ebb, #d162cd, #c073db, #d875d5, #ec79cf, #fe7ec8, #ff86a1, #ffa078, #ffc35a, #f6e857);
+    }
+    th, td {width: 14%;
+        text-align: left;
+        padding:5px;
+        border: 1px solid #bbb7b7;
+        background: #fff;
+        color: #000;
+        
+         }
+    caption{padding:20px;}
+
+.parrafos {    
+    
+    h2 {padding-top:20px;}
+    
+    padding-left:10px;
+    padding-right: 10px;
+    margin-bottom:20px;
+    margin-top:20px;
+    a{
+        display:inline;
+        font-family: "Dosis", sans-serif;
+    
+    
+    font-style: normal;   
+    
+    color: black
+      
+    }
+   
+    p{
+            
+            padding-top: 6px;
+            font-size:1em;
+            line-height:1.5;
+        }
+    }
+        
+
+.h2Bottom 
+   h2 {padding-bottom:20px;
+padding-left: 10px;}  
+    p{padding-bottom:20px;}
+.gradienteColoresPasteles{
+   
+    background-image: linear-gradient(to right top, #fdcbe8, #f3cbef, #e7cbf4, #d9ccf8, #cacdfa, #bfd2fe, #b4d7ff, #abdbff, #a6e4ff, #a5edff, #a9f6fd, #b2fdf8);
+}
+
+
+.imagenesEnLinea {display: flex;
+    justify-content: space-around; /* Distribuye el espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas si es necesario */
+    max-width: 100%; /* Asegura que las imágenes no excedan su tamaño máximo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    text-align: center; /* Centra el título y las imágenes */
+    margin: 20px;}
+    
+
+.botonCircular {display:inline-block;
+    border: rgb(80, 31, 80), solid,2px;
+    padding: 10px;
+    border-radius:50%;
+    margin-top:30px;
+}
+
+.footer {box-sizing: border-box;
+    background-image: linear-gradient(to right top, #f2eb54, #f2eb54, #f2eb54, #f2eb54, #f2eb54, #fae25f, #fed96b, #ffd177, #ffc596, #ffc1bc, #ffc6df, #f9d0f4);
+color:#12011a;
+    padding: 20px 10px;
+
+  
+    
+    ul{
+        padding-top: 20px;
+        list-style: none;
+        li{display: inline-block;
+            margin-right: 15px;}
+
+    
+        a{  
+           
+            text-decoration: none;
+            color:  #0e0d51;
+            font-size: 1em;
+        }
+        .fa-instagram, .fa-facebook, .fa-twitter{
+            display:inline;
+            font-size: 2em;
+            padding-top: 10px;
+        }
+    }
+
+    div{padding-top: 30px;
+        form{
+            padding-top: 10px;
+        }
+        iframe{padding-top: 15px;}
+        
+    nav{padding-top: 10px;
+        ul{padding-top: 10px;}}
+    p{padding-top: 10px;}
+    }
+}
+
+
+
+.fa-square-whatsapp{
+            font-size: 4em;
+            color:rgb(44, 181, 44);
+            position:fixed;
+            bottom: 20px;
+            right: 20px;}
+
+.volverArriba {
+    border:#521a3c, solid, 2px;
+    padding: 8px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 19px 7px rgba(23,3,21,0.76);
+    
+
+
+    font-family: "Dosis", sans-serif;
+    font-size: 1.5em;
+    color:#7c2f5f;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;}
+
